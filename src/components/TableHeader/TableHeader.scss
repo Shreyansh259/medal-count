@@ -1,0 +1,49 @@
+.active-sort {
+  text-decoration: overline;
+}
+
+.heading {
+  width: 35px;
+  padding-bottom: 10px;
+}
+
+.sort {
+  padding-top: 3px;
+  border-top-width: 5px;
+  border-top-style: solid;
+  width: 45px;
+  height: 20px;
+  margin: 0 auto;
+}
+
+.unselect {
+  border-top-color: white;
+}
+.selected {
+  border-top-color: #a4a5a2;
+}
+
+.medal-color {
+  display: block;
+  border-radius: 15px;
+  width: 20px;
+  height: 20px;
+  margin: 0 auto;
+}
+
+.gold {
+  background-color: #f3cf03;
+}
+.silver {
+  background-color: #d4d4d4;
+}
+.bronze {
+  background-color: #c4772a;
+}
+.total {
+  padding-top: 3px;
+  border-top-width: 5px;
+  border-top-style: solid;
+  height: 20px;
+  margin: 0 auto;
+}

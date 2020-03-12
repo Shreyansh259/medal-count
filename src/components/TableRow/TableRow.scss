@@ -1,0 +1,21 @@
+.hide-row {
+    display: none;
+  }
+
+  .row{
+    line-height: 35px;
+    border-bottom: 1px solid #e2dfdf;
+  }
+
+  .country-flag {
+    width: 37px;
+    height: 23px;
+    background-size: cover;
+    background-image: url("https://s3-us-west-2.amazonaws.com/fun-files/flags.png");
+    background-position-x: 0px;
+  }
+
+  .country-name {
+    color: rgba(82, 86, 89, 0.7);
+     font-size: 25px;
+  }

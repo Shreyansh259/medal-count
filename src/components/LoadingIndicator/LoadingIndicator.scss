@@ -1,0 +1,19 @@
+@keyframes loading-indicator-spin {
+  to {
+    transform: rotateY(180deg);
+  }
+}
+
+.loading-indicator {
+  text-align: center;
+  position: relative;
+  .loading-indicator-icon {
+    font-size: 100px;
+    display: inline-block;
+    animation: loading-indicator-spin 1s infinite linear;
+  }
+  .loading-indicator-message {
+    font-size: 24px;
+    margin-top: 8px;
+  }
+}
